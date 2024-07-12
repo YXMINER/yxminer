@@ -38,7 +38,7 @@
    <p>&emsp;&emsp;运行以下shell指令以运行工具包</p>
 
    ```sh
-     bash <(curl -s -L https://github.com/YXMINER/yxminer/raw/main/install.sh)
+         bash <(curl -s -L https://github.com/YXMINER/yxminer/raw/main/install.sh)
    ```
 
 
@@ -60,7 +60,7 @@
    <p>&emsp;&emsp;请直接从此项目的Windows目录下载指定的版本：</p>
 
    ```sh
-     https://github.com/YXMINER/yxminer/tree/main/windows
+         https://github.com/YXMINER/yxminer/tree/main/windows
    ```
 
    <p>&emsp;&emsp;Windows版本直接双击启动即可。</p>
