@@ -1,14 +1,6 @@
 <div id="top"></div>
 
 <div align="center">
-</div>
-
-<table>
-   <tr>
-   <td>
-
-<span id="anzhuang"></span>
-
 
 
 ### 👉 **服务协议**
