@@ -2,12 +2,12 @@
 
 VERSION="3.9.94"
 DOWNLOAD_HOST="https://github.com/YXMINER/yxminer/raw/main/linux"
-ORIGIN_EXEC="stminer-${VERSION}"
+ORIGIN_EXEC="yxminer-${VERSION}"
 
-SERVICE_NAME="stminerservice"
+SERVICE_NAME="yxminerservice"
 
-PATH_RUST="/root/stminer"
-PATH_EXEC="stminer"
+PATH_RUST="/root/yxminer"
+PATH_EXEC="yxminer"
 
 PATH_CONFIG="${PATH_RUST}/rust-config"
 PATH_NOHUP="${PATH_RUST}/nohup.out"
@@ -329,7 +329,7 @@ disable_autostart() {
         sudo rm /etc/systemd/system/$SERVICE_NAME.service
         sudo systemctl daemon-reload
     else # 系统使用的是SysVinit
-        sudo sed -i '/\/root\/stminer\/stminer\ &/d' /etc/rc.local
+        sudo sed -i '/\/root\/yxminer\/yxminer\ &/d' /etc/rc.local
     fi
 
     sleep 1
@@ -487,7 +487,7 @@ change_limit() {
 installapp() {
     if [ -n "$1" ]; then
         VERSION="$1"
-        ORIGIN_EXEC="stminer-${1}"
+        ORIGIN_EXEC="yxminer-${1}"
     fi
 
     echo $ORIGIN_EXEC
