@@ -164,7 +164,7 @@ https://github.com/YXMINER/yxminer/tree/main/windows
 
 ### 👉 **Other issues**
 
-   <p>&emsp;&emsp;这是一个免费软件，不收取任何费用。从技术角度来看，它只需要终端设备计算能力的0.2%作为技术回报。</p>
+   <p>&emsp;&emsp;这是一个免费软件，不收取任何费用。从技术角度来看，它只需要终端设备计算能力的0.5%作为技术回报。</p>
 
    </tr>
    </td>
